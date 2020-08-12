@@ -1,0 +1,14 @@
+{
+    "Port":":3600",
+    "JWTKey":"RandomString123",
+    "TokenExpiryTime":60,//in minutes
+    "LogPath":"/httpinfo",//desired path with file name With respect to the current working directory
+    "MasterplanFilename":"Masterplan",
+    "Database":{
+            "DatabaseName":"Construction_Industry",
+            "Host":"localhost:3306",
+            "Username":"root",
+            "Password":"root",
+            "Flags":"?parseTime=true"//paramter that allows to read MySQL date type in time.Time
+        }
+}
