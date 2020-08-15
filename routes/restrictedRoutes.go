@@ -7,5 +7,5 @@ import (
 )
 
 func RestrictedRoutes(res *gin.RouterGroup) {
-	res.POST("/getMasterplan", handlers.GetMasterplan())
+	res.GET("/getMasterplan", handlers.GetMasterplan())
 }
